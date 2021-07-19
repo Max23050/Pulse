@@ -28,6 +28,11 @@
     .feed-form {
         margin-left: 15px;
     }
+
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media (max-width: 767px) {
