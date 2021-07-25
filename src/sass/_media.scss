@@ -184,6 +184,16 @@
         }
     }
 
+    .modal {
+        width: 440px;
+        &__subtitle {
+            font-size: 20px;
+        }
+        &__descr {
+            font-size: 16px;
+        }
+    }
+
     
 }
 
@@ -319,6 +329,21 @@
         }
         &__phone {
             font-size: 25px;
+        }
+    }
+
+    .modal {
+        width: 100%;
+        padding: 40px 0;
+        &__subtitle {
+            font-size: 19px;
+        }
+        &__descr {
+            font-size: 15px;
+        }
+        &__close {
+            top: -27px;
+            right: 3px;
         }
     }
 }
